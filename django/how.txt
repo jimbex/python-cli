@@ -1,0 +1,12 @@
+django-admin startproject mysite - creates the web folder
+python manage.py runserver - runs the server
+python manage.py runserver port no - changes port no
+python manage.py startapp polls - creating poll app
+python manage.py createsuperuser
+python manage.py startapp name - create app
+python manage.py makemigration - connect to database
+python manage.py migrate - database
+from .models import model - importing models
+admin.site.register(model) - registering models
+python manage.py shell - opens shell
+Product.objects.create() - creates new object in manage.py shell
